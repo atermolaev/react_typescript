@@ -1,2 +1,2 @@
-# react_typescript
+# React_Typescript
 React TypeScript Project
