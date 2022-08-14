@@ -23,7 +23,7 @@ class Home extends React.Component {
     render(){
         return (
             <div>
-                <div>Home. lk.metricaonline.com</div>                
+                <div>Home. lk.metricaonline.com test1</div>                
                 <div>123</div>
             </div>
         )
