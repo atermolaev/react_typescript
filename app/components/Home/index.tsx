@@ -23,7 +23,7 @@ class Home extends React.Component {
     render(){
         return (
             <div>
-                <div>Home. Список храмов Ростова-на-Дону.</div>                
+                <div>Home.</div>                
                 <div>123</div>
             </div>
         )
