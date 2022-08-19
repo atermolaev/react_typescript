@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import * as styles from './Header.module.css';
+import styles from './Header.module.css';
 
 const Header: React.FC = () => {
     return (

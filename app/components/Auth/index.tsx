@@ -1,8 +1,6 @@
 import React from 'react';
-import * as styles from './Auth.module.css';
+import styles from './Auth.module.css';
 import { Typography, Button, Checkbox, Form, Input } from 'antd';
-// Расположить в css когда заработает
-// @import '~antd/dist/antd.css';
 
 const { Title } = Typography;
 
