@@ -7,31 +7,35 @@ import Page1 from '../Page1/index';
 import Page2 from '../Page2/index';
 import Logo from '../Logo/index';
 import Container from '../Container/index';
+import Auth from '../Auth/index';
 import Grid from '../Grid/index';
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Container>
-        <Grid>
+      <Route exact path="/" component={Auth} />
+      <Route path="/main">
+        <Container>
           <Grid>
-            <Logo />
+            <Grid>
+              <Logo />
+            </Grid>
+            <Grid>
+              <Header />
+            </Grid>
+            <Grid>
+              <SideBar />
+            </Grid>
+            <Grid>
+              <Switch>
+                <Route path="/main/home" component={Home} />
+                <Route path="/main/page1" component={Page1} />
+                <Route path="/main/page2" component={Page2} />
+              </Switch>
+            </Grid>
           </Grid>
-          <Grid>
-            <Header />
-          </Grid>
-          <Grid>
-            <SideBar />
-          </Grid>
-          <Grid>
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/page1" component={Page1} />
-              <Route path="/page2" component={Page2} />
-            </Switch>
-          </Grid>
-        </Grid>
-      </Container>
+        </Container>
+      </Route>
     </Router>
   )
 }
