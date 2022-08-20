@@ -10,7 +10,7 @@ import {
   Container, 
   Auth, 
   Grid 
-} from '../../components';
+} from '$components';
 
 const App: React.FC = () => {
   return (
