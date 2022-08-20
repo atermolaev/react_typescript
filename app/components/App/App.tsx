@@ -1,14 +1,16 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
-import Header from '../Header/index';
-import SideBar from '../SideBar/index';
-import Home from '../Home/index';
-import Page1 from '../Page1/index';
-import Page2 from '../Page2/index';
-import Logo from '../Logo/index';
-import Container from '../Container/index';
-import Auth from '../Auth/index';
-import Grid from '../Grid/index';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { 
+  Header, 
+  SideBar, 
+  Home, 
+  Page1, 
+  Page2, 
+  Logo, 
+  Container, 
+  Auth, 
+  Grid 
+} from '../../components';
 
 const App: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import Button from '../Button/index';
+import { Button } from '../../components';
 
 import { moneyCourceRequest } from '../../ducks/page1/actions';
 
